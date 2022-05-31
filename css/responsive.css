@@ -1,0 +1,97 @@
+@media only screen and (max-width: 905px) {
+    
+    .burger {
+        visibility: visible;
+    }
+
+    /* .navbar {
+        transition: all 0.7s ease-out;
+        height: 500px;
+    } */
+    
+    .nav-list {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .portfolio-banner {
+        padding: 23px 30px;
+        width: 30%;
+        justify-content: center;
+    }
+
+    .pb-left, .pb-right {
+        margin: 0;
+    }
+
+    .h-nav-resp {
+        height: 0%;
+    }
+
+    .v-class-resp {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .project-start {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .project-card {
+        width: 250px;
+        min-height: 300px;
+        margin: 63px 17px;
+    }
+
+    .about-start {
+        max-width: 75%;
+    }
+
+    .skills-start {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact .form .form-input {
+        padding: 13px 20px;
+    }
+
+    .project-start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 250px;
+        min-height: 250px;
+        margin: 33px 17px;
+    }
+
+    .about-start {
+        max-width: 90%;
+    }
+
+    .skills-start {
+        max-width: 75%;
+    }
+
+    .links a {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 20px;
+    }  
+}
+
+@media only screen and (max-width: 400px) {
+
+    .contact .form .form-input {
+        padding: 13px 13px;
+    }
+}
