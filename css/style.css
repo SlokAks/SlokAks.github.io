@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    z-index: 0;
 }
 
 /* For smooth scroll */
@@ -17,6 +18,7 @@ html {
 } */
 
 .navbar {
+    z-index: 1;
     display: flex ;
     align-items: center;
 
@@ -27,7 +29,7 @@ html {
     /* Sticky navbar */
     position: sticky;
     top: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .burger {
