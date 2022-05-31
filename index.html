@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slok Aks</title>
-    
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="contactHandler.js"></script>
     
     <script src="https://kit.fontawesome.com/1dd76bfeda.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -182,13 +183,13 @@
     <section class="contact" id="contact">
         
         <h2 class="text-contact">Contact Me</h2>
-        <div class="form">
+        <form class="form" onsubmit="sendEmail(); reset(); return false;">
             <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
             <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
             <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email">
             <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your message"></textarea>
             <button class="btn">Submit</button>
-        </div>
+        </form>
 
         <div class="links">
             <a href="https://github.com/SlokAks" target="_blank" rel="noopener noreferrer">
@@ -218,5 +219,6 @@
     </footer>
 
     <script src="resp.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
