@@ -11,7 +11,7 @@ sendEmail = () => {
         Username : "slok.aks205@gmail.com",
         Password : "51136EDEC70A74CEDD8CCDFF1C49DDBAC90D",
         To : 'slok.aks204@gmail.com',
-        From : _email,
+        From : 'slok.aks204@gmail.com',
         Subject : "New Contact Form Enquiry",
         Body : "Name: " + _name 
             + "<br> Phone: " + _phone
